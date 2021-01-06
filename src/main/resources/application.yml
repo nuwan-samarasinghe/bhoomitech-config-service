@@ -1,12 +1,49 @@
-server:
-  port: 8181
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://bitbucket.org/virtusa-hack/config-store
-          username: nuwansamarasinghe100@gmail.com
-          password: 4kRUq5aT5xjcQhrNPhc2
+          uri: git@bitbucket.org:boomitech/config-store.git
+          ignoreLocalSshSettings: true
           search-paths: '*service*'
-
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+          clone-on-start: true
