@@ -1,3 +1,5 @@
+server:
+  port: 12001
 spring:
   cloud:
     config:
