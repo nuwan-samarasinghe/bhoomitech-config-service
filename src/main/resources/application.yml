@@ -48,4 +48,4 @@ spring:
             wdNiJeCSsxWUP6IB0UOgbMDlo3tU2qbYTpGMXAFf1CNg3TJIGip32mB8jvwcPzJl
             b1y0tTXUSu2wR6IrMlgCGb0+vcqCZaLLcbYMG1VhEMJNZaD7JzNH
             -----END RSA PRIVATE KEY-----
-          clone-on-start: true
+          clone-on-start: false
