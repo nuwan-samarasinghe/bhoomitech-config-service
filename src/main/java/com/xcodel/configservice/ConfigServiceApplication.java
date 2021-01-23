@@ -1,4 +1,4 @@
-package com.smartinterviewshedular.configservice;
+package com.xcodel.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

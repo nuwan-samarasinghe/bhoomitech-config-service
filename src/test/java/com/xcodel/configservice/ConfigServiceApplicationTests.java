@@ -1,4 +1,4 @@
-package com.smartinterviewshedular.configservice;
+package com.xcodel.configservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

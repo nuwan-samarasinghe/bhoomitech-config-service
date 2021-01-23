@@ -8,11 +8,11 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.smart-interview-shedular</groupId>
+	<groupId>com.xcodel</groupId>
 	<artifactId>config-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2021.01-1</version>
 	<name>config-service</name>
-	<description>This is the configuration service of the smart interview shedular application</description>
+	<description>Config provider for all applications</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -27,6 +27,11 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xcodel</groupId>
+			<artifactId>lib-common</artifactId>
+			<version>2021.01-1</version>
 		</dependency>
 
 		<dependency>
